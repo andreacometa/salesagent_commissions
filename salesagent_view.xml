@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+		
+		<!-- ====================================================== -->
+		<!-- 					MENÙ	PROVVIGIONI 				-->
+		<!-- ====================================================== -->
+		<menuitem icon="terp-stage" id="menu_commissions" name="Commissions" 
+			web_icon="images/agent.jpg" web_icon_hover="images/agent-hover.jpg"
+			groups="group_salesagent_user"/>
+			<menuitem icon="terp-report" parent="menu_commissions" id="menu_commissions_summary" name="Summary"/>
+			<menuitem icon="terp-partner" parent="menu_commissions" id="menu_commissions_address_book" name="Address Book"/>
+			<menuitem icon="terp-tools" parent="menu_commissions" id="menu_commissions_tools" name="Tools"/>
+
+	</data>
+</openerp>
